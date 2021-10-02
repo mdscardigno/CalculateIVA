@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace CalculateIVA
 {
@@ -6,7 +10,8 @@ namespace CalculateIVA
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Welcome to C#");
+      Console.WriteLine("Enter the price of the item: ");
+      double price = Convert.ToDouble(Console.ReadLine());
     }
   }
 }
